@@ -1,6 +1,6 @@
 language: java
 
-build_image: drydock/u14javall:tip
+build_image: drydock/u14javpls:tip
 
 services:
   - mysql
