@@ -1,5 +1,9 @@
 language: java
 
+build_image: drydock/u12javpls:tip
+services:
+  - mysql
+
 jdk:
    - oraclejdk7
    - openjdk6
