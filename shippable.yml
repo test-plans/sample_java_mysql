@@ -1,6 +1,7 @@
 language: java
 
-build_image: drydock/u12javpls:tip
+build_image: drydock/u14javpls:tip
+
 services:
   - mysql
 
@@ -8,7 +9,8 @@ jdk:
    - oraclejdk7
    - openjdk6
    - openjdk7
-
+   - oraclejdk8
+   
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
